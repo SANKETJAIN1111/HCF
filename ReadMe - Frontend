@@ -1,0 +1,20 @@
+Link to GraphQL API
+In our last blog, We have setup Middleware and MongoDB/MYSQL database.
+In this repo, I will use Angular 6 and Angular Material framework to access GraphQL API to connect to MongoDB and MYSQL.
+Let's get started:
+Install nodejs
+$ node -v // check node version, if this doesn't return node version, please fix and re-install (or update your %PATH%)
+$ npm -v // node versions comes with npm install, just check the versions
+npm install -g @angular/cli // we will be using Angular for front-end development later
+$ ng -v // check angular cli version
+
+Once, we have NodeJS & Angular CLI installed. Let create a folder "client".
+Clone content from this GitHub repository to "Client" folder and
+
+$ npm install
+$ ng serve
+
+update your src/environments/environment.ts & src/environments/environment.prod.ts file and update
+
+
+Open your browser and goto http://localhost:4200
