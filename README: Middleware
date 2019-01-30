@@ -1,0 +1,27 @@
+Install nodejs
+$ node -v // check node version, if this doesn't return node version, please fix and re-install (or update your %PATH%)
+$ npm -v // node versions comes with npm install, just check the versions
+npm install -g @angular/cli // we will be using Angular for front-end development later
+$ ng -v // check angular cli version
+$ npm install -g nodemon // need this to autostart node server 
+$ npm install -g cors // use this to secure Cross Origin Requests to Node and GraphQL server 
+
+// create a new project, let's call it server
+$ mkdir server or md server //create a new folder
+$ cd server 
+
+
+// copy gitclone entire directory
+// browse to folder where repository is cloned and
+$ npm install
+// make sure database is up and running
+// *** update env file as per you database settings **//
+$ nodemon start
+
+open an browser window on browse to
+localhost:3000
+localhost:3000/grahpql
+
+Setup CORS
+Setup Database
+Setup Authentication and Authorization
